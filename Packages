@@ -54,143 +54,22 @@ SHA1: 538f9caf1ad518974154988fcbc67f254a5cc171
 SHA256: a106ba29b7f9695b25e8375229e1a158738c2fdc9929c7ca5956ca199066df50
 Section: Games
 Description: Snake game rootless type snake in terminal to play
-Name: Snake (Rootless)
+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Name: Snake (Rootless)
 
-Package: com.kdt.trollpad
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: khanhduytran0
-Installed-Size: 88
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.kdt.trollpad_1.0_iphoneos-arm64e-1.deb
-Size: 3838
-MD5sum: 432ebdc6c31e59ab27b9a0740160c338
-SHA1: 03edb466d0538097d17d3839546517eef2d09c6a
-SHA256: dda601c31d31a87d8becb02689a949677429f07502695555d293fcf078f90893
-Section: Tweaks
-Description: Troll SpringBoard into thinking it's running on iPadOS.
-Author: khanhduytran0
-Name: TrollPad
-Icon: https://haydarreiss31.github.io/HaydarReissRepo/icons/TrollPadIcon.png
-
-Package: com.kdt.trollpad
-Version: 1.2.3
+Package: com.futur3sn0w.ccaster
+Version: 0.2.4
 Architecture: iphoneos-arm64
-Maintainer: khanhduytran0
-Installed-Size: 536
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
-Filename: ./debs/com.kdt.trollpad_1.2.3_iphoneos-arm64.deb
-Size: 28176
-MD5sum: 41ccef44f0c2978690a11a2159a5318e
-SHA1: debaab091d0768f8d8988e128351584b0927bf41
-SHA256: 1bcad3e5515e0956369b5615ffe9271c6d21f234b5129506ff7c7bce07d8be83
+Maintainer: futur3sn0w
+Installed-Size: 1804
+Depends: firmware (>= 11.0), firmware (<< 18.0), ellekit, preferenceloader
+Filename: ./debs/com.futur3sn0w.ccaster_0.2.4_iphoneos-arm64.deb
+Size: 443392
+MD5sum: 5c7a927b52b97b289b8d3fee785c7965
+SHA1: 6a7d92de058ab5a87f71b2d6fc104509004a9632
+SHA256: 932d0520f979c6ba585d6f66bd38eb36b1f50e16fbf30eabb9cb21a572bb658f
 Section: Tweaks
-Description: Troll SpringBoard into thinking it's running on iPadOS.
-Author: khanhduytran0
-Name: TrollPad
-Icon: https://haydarreiss31.github.io/HaydarReissRepo/icons/TrollPadIcon.png
-
-Package: com.kdt.trollpad
-Version: 1.2.3
-Architecture: iphoneos-arm
-Maintainer: khanhduytran0
-Installed-Size: 536
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
-Filename: ./debs/com.kdt.trollpad_1.2.3_iphoneos-arm.deb
-Size: 28278
-MD5sum: b7c3405cc4e9395645ea0c39448f72ee
-SHA1: d4b5df8c1fed3b4d65d1013937c6dcfdb76865ab
-SHA256: d888bb0a11de3c8fc879f766f6d97523bfb351a5ab5f9c6290c624d79393e8ff
-Section: Tweaks
-Description: Troll SpringBoard into thinking it's running on iPadOS.
-Author: khanhduytran0
-Name: TrollPad
-Icon: https://haydarreiss31.github.io/HaydarReissRepo/icons/TrollPadIcon.png
-
-Package: gay.rooot.geodeinject
-Version: 0.0.6
-Architecture: iphoneos-arm64
-Maintainer: rooot
-Installed-Size: 196
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/gay.rooot.geodeinject_0.0.6_iphoneos-arm64.deb
-Size: 16572
-MD5sum: 98342fd9b249c2f834306a542c946f63
-SHA1: 617f296baf7de9bbb280f5ca39f1bb7ba2971e35
-SHA256: 67350257f36df2e2c4e1a9b648fe7ca9ffa69b30c16f03f2e91eea02aaf163f0
-Section: Tweaks
-Description: Injects Geode into Geometry Dash.
-Author: rooot
-Icon: https://raw.githubusercontent.com/RoootTheFox/geode-inject-ios/meow/misc/icon.png
-Name: Geode Inject
-
-Package: com.0xkuj.3dappversionspoofer
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: 0xkuj
-Installed-Size: 472
-Depends: com.opa334.altlist
-Filename: ./debs/com.0xkuj.3dappversionspoofer_2.0_iphoneos-arm.deb
-Size: 60280
-MD5sum: 4cf5925dc4d4e38e4519d06a5e372735
-SHA1: 4cf2884d0621bce7ce3b24a89dca267ff21f1407
-SHA256: d5f87e63779c5b7fb415d16e472bd056ef87a7759efd8e0377cdc4654418f721
-Section: Tweaks
-Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
-Author: 0xkuj
-Name: 3DAppVersionSpoofer
-Icon: https://haydarreiss31.github.io/HaydarReissRepo/icons/3DAppVersionSpoofer.png
-
-Package: com.0xkuj.3dappversionspoofer
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Installed-Size: 472
-Depends: com.opa334.altlist
-Filename: ./debs/com.0xkuj.3dappversionspoofer_2.0_iphoneos-arm64.deb
-Size: 60382
-MD5sum: ea75414c4c0eda54b0f4cf2c96f069ae
-SHA1: f6e771b3f72eb50165823a1c26b756a9f08b0cf3
-SHA256: 0122b0ec239ece8857bd151c8b62d92e6f18476c7072b9aed4ec6abd3dc7c214
-Section: Tweaks
-Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
-Author: 0xkuj
-Name: 3DAppVersionSpoofer
-Icon: https://haydarreiss31.github.io/HaydarReissRepo/icons/3DAppVersionSpoofer.png
-
-Package: com.0xkuj.3dappversionspoofer
-Version: 2.0
-Architecture: iphoneos-arm64e
-Maintainer: 0xkuj
-Installed-Size: 440
-Depends: com.opa334.altlist
-Filename: ./debs/com.0xkuj.3dappversionspoofer_2.0_iphoneos-arm64e.deb
-Size: 58028
-MD5sum: 9c3b29831943d98d29bd0f1b3fdff7b6
-SHA1: 1d1666c6e05862098e8c57b19df926549679ff35
-SHA256: 5ae33950bff620b8480093b4ea3a2bbe2febb92a193357abac8eb571c19049d3
-Section: Tweaks
-Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
-Author: 0xkuj
-Name: 3DAppVersionSpoofer
-Icon: https://haydarreiss31.github.io/HaydarReissRepo/icons/3DAppVersionSpoofer.png
-
-Package: com.dth.dynamicnotch
-Version: 1.1.12+rootless
-Architecture: iphoneos-arm64
-Maintainer: HieuDuongIT
-Installed-Size: 1612
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 14.0)
-Breaks: com.dth.dynamicnotch-roothide, com.dth.dynamicnotch-rootless
-Replaces: com.dth.dynamicnotch-roothide, com.dth.dynamicnotch-rootless
-Filename: ./debs/com.dth.dynamicnotch_1.1.12+rootless_iphoneos-arm64.deb
-Size: 303856
-MD5sum: bc1a7103e1799eefcc6edbdafb013851
-SHA1: 965517e9b88955788327ed04e69293640a943ce4
-SHA256: 8913be5e4a61b6642ead10f5cbfd66acdf0bac7c9e4eac542e6936268d6b1f2e
-Section: Tweaks
-Description: Dynamic Island for devices with a notch, version 1.1.12 adds DND notch
-Author: HieuDuongIT
-Name: DynamicNotch
-Icon: https://haydarreiss31.github.io/HaydarReissRepo/icons/DynamicNotch.png
+Description: AI slop.
+Author: futur3sn0w
+Icon: https://futur3sn0w.github.io/repo/icons/com.futur3sn0w.ccaster.png
+Name: CCAster
+Sileodepiction: https://futur3sn0w.github.io/repo/depictions/com.futur3sn0w.ccaster.json
