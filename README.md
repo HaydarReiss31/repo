@@ -8,10 +8,6 @@ https://haydarreiss31.github.io/repo/
 
 ---
 
-## ♟️ Checkra1n Respring Animation
-
-![Respring Preview](icons/logo.png)
-
 ### 🛠️ Installation Guide
 
 1. **Add the Source:** Copy the repo link above and add it to your package manager (Sileo, Zebra, etc.).
